@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LobsterApduTool</string>
+    <string name="servicedesc">Emulated Oyster Card</string>
+    <string name="aiddescription">TfL Oyster Card Application (DESFire)</string>
 </resources>

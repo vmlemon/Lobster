@@ -13,11 +13,16 @@ public class Crustacean extends HostApduService {
 
     @Override
     public byte[] processCommandApdu(byte[] apdu, Bundle extras) {
+
+        byte[] response = {};
+
         System.out.println("Crustacean APDU :\r\n " + apdu
             + "Bundle : \r\n" + extras + "\r\n");
+        return response;
     }
+
     @Override
     public void onDeactivated(int reason) {
-        System.out.println("Deactivated for " + reason + "\r\n")
+        System.out.println("Deactivated for " + reason + "\r\n");
     }
 }
