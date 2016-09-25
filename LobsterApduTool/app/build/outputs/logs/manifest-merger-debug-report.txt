@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:2:1-44:12
 	xmlns:android
 		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -13,8 +13,16 @@ ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManife
 	android:versionCode
 		INJECTED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.NFC
+ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:12:5-62
+	android:name
+		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:12:22-59
+uses-permission#android.permission.BIND_NFC_SERVICE
+ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:13:22-72
 application
-ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:5:5-30:19
+ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:15:5-42:19
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\tyson_000\Lobster\LobsterApduTool\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\tyson_000\Lobster\LobsterApduTool\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\tyson_000\Lobster\LobsterApduTool\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
@@ -23,51 +31,53 @@ MERGED from [com.android.support:support-v4:23.4.0] C:\Users\tyson_000\Lobster\L
 MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\tyson_000\Lobster\LobsterApduTool\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-v4:23.4.0] C:\Users\tyson_000\Lobster\LobsterApduTool\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
 	android:supportsRtl
-		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:18:9-41
 	android:allowBackup
-		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:16:9-35
 	android:icon
-		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:17:9-43
 	android:theme
-		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:10:9-40
-activity#uk.co.house404.lobsterapdutool.MainActivity
-ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:11:9-17:20
-	android:name
-		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:11:19-47
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:12:13-16:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:13:17-69
-	android:name
-		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:13:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:15:17-77
-	android:name
-		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:15:27-74
-service#uk.co.house404.lobsterapdutool.Crustacean
-ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:19:9-29:19
-	android:exported
-		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:22:13-36
-	android:enabled
-		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:21:13-35
+		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:20:9-40
 	android:permission
-		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:23:13-69
+		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:21:9-52
+activity#uk.co.house404.lobsterapdutool.MainActivity
+ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:22:9-28:20
 	android:name
-		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:20:13-39
+		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:22:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:26:27-74
+service#uk.co.house404.lobsterapdutool.Crustacean
+ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:30:9-41:19
+	android:exported
+		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:33:13-36
+	android:enabled
+		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:32:13-35
+	android:permission
+		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:34:13-69
+	android:name
+		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:31:13-39
 intent-filter#android.nfc.cardemulation.action.HOST_APDU_SERVICE
-ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:24:13-26:29
+ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:36:13-38:29
 action#android.nfc.cardemulation.action.HOST_APDU_SERVICE
-ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:25:17-92
+ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:37:17-92
 	android:name
-		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:25:25-90
+		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:37:25-90
 meta-data#android.nfc.cardemulation.host_apdu_service
-ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:27:13-28:54
+ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:39:13-40:54
 	android:resource
-		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:28:17-52
+		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:40:17-52
 	android:name
-		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:27:24-82
+		ADDED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml:39:24-82
 uses-sdk
 INJECTED from C:\Users\tyson_000\Lobster\LobsterApduTool\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\tyson_000\Lobster\LobsterApduTool\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78

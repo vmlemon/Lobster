@@ -4,6 +4,16 @@
     <aid-group android:description="@string/aiddescription"
         android:category="other">
         <aid-filter android:name="31594F"/>
+
+        <!-- Are these ITSO/other Oyster AIDs? Could also be shorts for EMV
+        09-24 21:19:12.392  3583  3583 E CardEmulation: AID 504159 is not a valid AID.
+09-24 21:19:12.392  3583  3583 E ApduServiceInfo: Ignoring invalid or duplicate aid: 504159
+09-24 21:19:12.392  3583  3583 E CardEmulation: AID 415031 is not a valid AID.
+09-24 21:19:12.392  3583  3583 E ApduServiceInfo: Ignoring invalid or duplicate aid: 415031
+09-24 21:19:12.392  3583  3583 E CardEmulation: AID 415032 is not a valid AID.
+09-24 21:19:12.392  3583  3583 E ApduServiceInfo: Ignoring invalid or duplicate aid: 415032
+        -->
+
         <!--aid-filter android:name="F0394148148100"/-->
     </aid-group>
 </host-apdu-service>
